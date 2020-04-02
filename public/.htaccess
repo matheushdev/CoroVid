@@ -19,6 +19,4 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 
-	RewriteCond %{SERVER_PORT} 80
-	RewriteRule ^(.*)$ https://m4theus-corovid.herokuapp.com/$1 [R,L]
 </IfModule>
