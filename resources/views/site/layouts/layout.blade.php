@@ -59,7 +59,7 @@
 
 
 
-   <title>Title do Site</title>
+   <title>COROVID</title>
 </head>
 
 <body>
