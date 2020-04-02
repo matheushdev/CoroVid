@@ -16,7 +16,7 @@
    <link rel="icon" sizes="192x192" href="{{ asset('/assets/img/logoHM192x192.png') }}">
    <link rel="apple-touch-icon" href="{{ asset('/assets/img/logoHM192x192.png') }}">
    <link rel="shortcut icon" type="image/png href=" {{ asset('/assets/img/logoHM144x144.png') }}"">
-   <link rel="manifest" href="{{ asset('/assets/manifest/manifest.json') }}">
+   <!--<link rel="manifest" href="{{-- asset('/assets/manifest/manifest.json') --}}">-->
 
    <!--[ICON]-->
    <link rel="icon" href="{{ asset('/assets/img/icon.png') }}">
