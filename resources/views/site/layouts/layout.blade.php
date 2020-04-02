@@ -16,7 +16,7 @@
    <link rel="icon" sizes="192x192" href="{{ asset('/assets/img/logoHM192x192.png') }}">
    <link rel="apple-touch-icon" href="{{ asset('/assets/img/logoHM192x192.png') }}">
    <link rel="shortcut icon" type="image/png href=" {{ asset('/assets/img/logoHM144x144.png') }}"">
-   <!--<link rel="manifest" href="{{-- asset('/assets/manifest/manifest.json') --}}">-->
+   <link rel="manifest" href="{{ asset('/assets/manifest/manifest.json') }}">
 
    <!--[ICON]-->
    <link rel="icon" href="{{ asset('/assets/img/icon.png') }}">
@@ -48,18 +48,18 @@
    <meta name="copyright" content="Restaurante, Inc. ©">
 
    <!--[LINK:Outros]-->
-   <link href="{{ url('assets/css/sweetalert2-dark.css') }}" rel="stylesheet">
-   <link href="{{ url('assets/css/bootstrap/bootstrap.css') }}" rel="stylesheet">
+   <link rel="stylesheet" href="{{ url('assets/css/sweetalert2-dark.css') }}">
+   <link rel="stylesheet" href="{{ url('assets/css/bootstrap/bootstrap.css') }}">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
    <link rel="stylesheet" href="{{ url('assets/css/animate.min.css') }}">
 
    <!--[LINK:Styles]-->
-   <link href="assets/css/style.css" rel="stylesheet">
+   <link href="{{ url(mix('assets/css/style.css')) }}" rel="stylesheet">
 
 
 
 
-   <title>COROVID</title>
+   <title>CoroVid</title>
 </head>
 
 <body>
