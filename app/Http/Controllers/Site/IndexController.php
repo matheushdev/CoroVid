@@ -7,6 +7,21 @@ use Illuminate\Http\Request;
 
 class IndexController extends Controller
 {
+
+
+    public function __construct(Request $request)
+    {  
+        //
+    }
+
+    public function getDados()
+    {
+        $server = file_get_contents("API/index.json");
+        $info = json_decode($server, true);
+        return $info;
+    }
+
+
     /**
      * Display a listing of the resource.
      *
@@ -14,8 +29,13 @@ class IndexController extends Controller
      */
     public function index()
     {
-        return view('site.index');
+        $dados = $this->getDados();
+        return view('site.index', [
+            "dados" => $dados
+        ]);
     }
+
+    
 
     /**
      * Show the form for creating a new resource.

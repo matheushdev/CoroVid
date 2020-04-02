@@ -1,0 +1,33 @@
+{
+    "cidade": {
+        "coromandel": {
+            "nome_cidade": "Coromandel",
+            "casos_suspeitos": "46",
+            "casos_confirmados": "0",
+            "casos_descartados": "0",
+            "pacientes_isolamento_domiciliar": "0",
+            "exames_coletados": "06",
+            "pacientes_internados": "0",
+            "sairam_do_isolamento_domiciliar": "0",
+            "pacientes_internados_em_uberlandia": "2",
+            "data": "01/04/2020 21:41",
+            "fonte_nome": "GeraisFM",
+            "fonte_link": "https://www.facebook.com/radiogeraisfm/"
+        },
+        "abadia_dos_dourados": {
+            "nome_cidade": "Abadia dos Dourados",
+            "casos_suspeitos": "1",
+            "casos_confirmados": "0",
+            "casos_descartados": "0",
+            "pacientes_isolamento_domiciliar": "2",
+            "exames_coletados": "0",
+            "pacientes_internados": "0",
+            "sairam_do_isolamento_domiciliar": "0",
+            "pacientes_internados_em_uberlandia": "0",
+            "data": "01/04/2020 21:41",
+            "fonte_nome": "GeraisFM",
+            "fonte_link": "https://www.facebook.com/radiogeraisfm/"
+        }
+    }
+
+}

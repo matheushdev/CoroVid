@@ -55,7 +55,11 @@ a:hover {
 
 /* !- MENU - INICIO -! */
 
-.menu {
+section.menu {
+    margin-top: 15px;
+}
+
+nav.menu {
     background: #1f1f23;
     border-bottom: rgba(0, 0, 0, .30) solid 4px;
     padding: 0;
@@ -69,6 +73,10 @@ a:hover {
 
 .menu .nav-item:hover {
     background: rgba(0, 0, 0, .2);
+}
+
+.menu .active .nav-link {
+    color: #ffdfe2;
 }
 
 .menu .active {
@@ -122,17 +130,19 @@ footer a:hover {
 
 footer i.fas.fa-code {
     color: #fff;
-    font-size: 10px;
+    font-size: 11px;
     margin-left: 1px;
     margin-right: 1px;
 }
 
 footer i.far.fa-heart {
-    color: #ff6868;
-    font-size: 10px;
+    color: #d80404;
+    font-size: 11px;
+    font-weight: 500;
     margin-left: 1px;
     margin-right: 1px;
     animation: pulse 1s infinite;
+    transform: scale(1.1);
 }
 
 @keyframes pulse {
@@ -141,16 +151,8 @@ footer i.far.fa-heart {
         color: #fc4949;
     }
     20% {
-        transform: scale(1.1);
+        transform: scale(1.2);
         color: #ff2f2f;
-    }
-    30% {
-        transform: scale(1.1);
-        color: #ff0f0f;
-    }
-    40% {
-        transform: scale(1.1);
-        color: #d30000;
     }
 }
 
@@ -162,7 +164,59 @@ footer i.far.fa-heart {
 
 .conteudo {
     background-color: #252529;
-    padding: 15px 15px;
+    padding: 30px 30px;
+}
+
+.conteudo .card {
+    background: #161618;
+    border-radius: 0;
+    border: 3px #0c0c0e solid;
+    margin-bottom: 40px;
+}
+
+.conteudo .card .titulo {
+    padding: 8px 0px;
+    text-align: center;
+    border-bottom: 3px #0c0c0e solid;
+    font-size: 18px;
+}
+
+.conteudo .card .infos {
+    padding: 10px 10px;
+    border-bottom: 2px #0c0c0e59 solid;
+}
+
+.conteudo .card .infos {
+    padding: 10px 10px;
+}
+
+.conteudo .card .inf2 {
+    margin-top: 5px;
+}
+
+.conteudo .card hr.hr1 {
+    border: 0;
+    height: 1px;
+    border-bottom: #d80820 1px dotted;
+}
+
+.conteudo .card hr.hr2 {
+    margin: 6px 5px 6px 5px;
+    display: block;
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, #d8082000, #f831483b, #d8082093, #f8314857, #d8082000);
+}
+
+.conteudo .card .footer {
+    padding: 10px 10px;
+    font-size: 12px;
+}
+
+.conteudo .card .footer a,
+e {
+    color: #d80404;
+    font-weight: 600;
 }
 
 
