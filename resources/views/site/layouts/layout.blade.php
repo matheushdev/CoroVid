@@ -51,7 +51,7 @@
    <link href="{{ url('assets/css/sweetalert2-dark.css') }}" rel="stylesheet">
    <link href="{{ url('assets/css/bootstrap/bootstrap.css') }}" rel="stylesheet">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-   <link href="http://hypemanager.ml/arquivos/css/ionicons/ionicons.min.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" href="{{ url('assets/css/animate.min.css') }}">
 
    <!--[LINK:Styles]-->
    <link href="{{ url(mix('assets/css/style.css')) }}" rel="stylesheet">
@@ -63,12 +63,57 @@
 </head>
 
 <body>
+
+<!--[MENU:Inicio]-->
+<section class="menu">
+   <div class="container">
+       <nav class="navbar menu navbar-expand-lg fp ">
+           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+               data-target="#navbarNav"> ☰ </button>
+           <div class="container">
+               <div class="collapse navbar-collapse wow fadeIn" id="navbarNav">
+                   <ul class="navbar-nav">
+                       <li class="nav-item {{ ($pagina == 'index')? 'active' :  '' }}">
+                           <a class="nav-link" href="/">
+                               <i class="fas fa-home"></i>   INICIO
+                           </a>
+                       </li>
+                       <li class="nav-item {{ ($pagina == 'contato')? 'active' :  '' }}">
+                           <a class="nav-link" href="{{ route('site.contato') }}">
+                               <i class="fas fa-envelope"></i>   CONTATO
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+       </nav>
+   </div>
+</section>
+<!--[MENU:Fim]-->
    @yield('content')
+<!--[FOOTER:Inicio]-->
+<section class="footer container">
+   <footer>
+       <div class="row  wow fadeIn">
+           <div class="col-md-6"> © CoroVid - Projeto para visualizar total de casos da COVID-16 no município.</div>
+           <div class="col-md-6">
+               <span>
+                   <i class="fas fa-code"></i>  Desenvolvido com  <i class="far fa-heart"></i>  por  
+                   <a href="https://github.com/m4theus-dev/" target="_blank">M4theus.dev</a>
+               </span>
+           </div>
+       </div>
+   </footer>
+</section>
+<!--[FOOTER:Fim]-->
+
 
    <!--[SCRIPTS:Outros]-->
    <script src="{{ url('assets/js/jquery.js') }}"></script>
    <script src="{{ url('assets/js/sweetalert2.min.js') }}"></script>
    <script src="{{ url('assets/js/bootstrap/bootstrap.js') }}"></script>
+   <script src="{{ url('assets/js/wow.js') }}" type="text/javascript" ></script>
+   <script>new WOW().init();</script>
    <!--[SCRIPTS:Site]-->
    <script src="{{ url(mix('assets/js/main.js')) }}"></script>
 </body>

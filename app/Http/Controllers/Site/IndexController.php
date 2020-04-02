@@ -14,9 +14,16 @@ class IndexController extends Controller
         //
     }
 
-    public function getDados()
+    public function getDadosMunicipio()
     {
         $server = file_get_contents("API/index.json");
+        $info = json_decode($server, true);
+        return $info;
+    }
+
+    public function getDadosBrazil()
+    {
+        $server = file_get_contents("https://api.covidzero.com.br/data_api/v1/cases/state/report");
         $info = json_decode($server, true);
         return $info;
     }
@@ -29,9 +36,25 @@ class IndexController extends Controller
      */
     public function index()
     {
-        $dados = $this->getDados();
+        $dadosMunicipio = $this->getDadosMunicipio();
+        $dadosBrazil = $this->getDadosBrazil();
         return view('site.index', [
-            "dados" => $dados
+            "dados" => $dadosMunicipio,
+            "dadosBrazil" => $dadosBrazil,
+            "pagina" => 'index'
+        ]);
+    }
+
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function contato()
+    {
+        return view('site.contato', [
+            "pagina" => 'contato'
         ]);
     }
 

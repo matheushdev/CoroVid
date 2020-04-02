@@ -56,7 +56,7 @@ a:hover {
 /* !- MENU - INICIO -! */
 
 section.menu {
-    margin-top: 15px;
+    margin-top: 1px;
 }
 
 nav.menu {
@@ -76,11 +76,11 @@ nav.menu {
 }
 
 .menu .active .nav-link {
-    color: #ffdfe2;
+    color: #e91e3f;
 }
 
 .menu .active {
-    background: rgba(0, 0, 0, .2);
+    background: rgba(0, 0, 0, .4);
 }
 
 .menu .nav-link {
@@ -147,11 +147,11 @@ footer i.far.fa-heart {
 
 @keyframes pulse {
     10% {
-        transform: scale(1.1);
+        transform: scale(1.2);
         color: #fc4949;
     }
-    20% {
-        transform: scale(1.2);
+    11% {
+        transform: scale(1.3);
         color: #ff2f2f;
     }
 }

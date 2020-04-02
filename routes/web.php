@@ -11,4 +11,6 @@
 |
 */
 
-Route::get('/', 'Site\IndexController@index');
+Route::get('/', 'Site\IndexController@index')->name('site.index');;
+
+Route::get('contato', 'Site\IndexController@contato')->name('site.contato');
