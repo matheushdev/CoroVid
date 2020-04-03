@@ -24,17 +24,17 @@
     <!--[META:OG]-->
     <meta property="og:locale" content="pt-BR">
     <meta property="og:url" content="{{ url('') }}'">
-    <meta property="og:title" content="Restaurante">
-    <meta property="og:site_name" content="Restaurante">
-    <meta property="og:description" content="Vendas no restaurante">
+    <meta property="og:title" content="CoroVid">
+    <meta property="og:site_name" content="CoroVid">
+    <meta property="og:description" content="Visualize os casos de corona vírus da região!">
     <meta property="og:image" content="{{ url('/assets/img/icon.png') }}">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="144">
     <meta property="og:image:height" content="144">
 
     <!--[META:TWITTER]-->
-    <meta name="twitter:title" content="Restaurante">
-    <meta name="twitter:description" content="Vendas no restaurante">
+    <meta name="twitter:title" content="CoroVid">
+    <meta name="twitter:description" content="Visualize os casos de corona vírus da região!">
     <meta name="twitter:image" content="{{ url('/assets/img/icon.png') }}">
 
     <!--[META:AUTHOR]-->
@@ -43,9 +43,9 @@
     <meta property="article:published_time" content="M4theus.dev" href="https://M4theus.me">
 
     <!--[META:Keywords]-->
-    <meta name="keywords" content="Restaurante, restaurante, matheus dev, mths.dev">
-    <meta name="description" content="Vendas no restaurante">
-    <meta name="copyright" content="Restaurante, Inc. ©">
+    <meta name="keywords" content="CoroVid, coro vid, coro, vid, coromandel, coro, minas, corona virus, corona virus coromande, covid, covid coromandel, casos em coromandel, casos de corona em coromandel, corona, casos, virus, Coromandel, minas gerais, MG, abadia dos dourados, abadia, dos, dourados, casos de corona virus em abadia, monte carmelo, monte, carmelo, casos de corona virus em monte carmelo, brazil, desenvolvedor, matheus dev, mths.dev, m4theus.dev, m4theus.me, matheus dev, m4theus dev, M4THEUS DEV">
+    <meta name="description" content="Visualize os casos de corona vírus da região!">
+    <meta name="copyright" content="© CoroVid">
 
     <!--[LINK:Outros]-->
     <link rel="stylesheet" href="{{ url('assets/css/sweetalert2-dark.css') }}">

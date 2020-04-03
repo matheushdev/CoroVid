@@ -1,12 +1,12 @@
 {
-    "name": "HypeManager",
-    "short_name": "HypeManager",
-    "description": "Um simples gerenciador pessoal...",
+    "name": "CoroVid",
+    "short_name": "CoroVid",
+    "description": "Visualize os casos de corona vírus da região!",
     "start_url": "/",
     "display": "standalone",
     "orientation": "any",
     "background_color": "#efefef",
-    "theme_color": "#f51313",
+    "theme_color": "#f1384e",
     "lang": "pt-BR",
     "icons": [{
             "src": "/assets/img/logo512x512.png",
@@ -45,6 +45,6 @@
         }
     ],
     "author": {
-        "name": "Matheus 'zlDeath' Henrique"
+        "name": "M4theus.dev"
     }
 }
