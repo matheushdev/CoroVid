@@ -14,3 +14,5 @@
 Route::get('/', 'Site\IndexController@index')->name('site.index');;
 
 Route::get('contato', 'Site\IndexController@contato')->name('site.contato');
+
+Route::get('offline', 'Site\IndexController@offline')->name('site.offline');

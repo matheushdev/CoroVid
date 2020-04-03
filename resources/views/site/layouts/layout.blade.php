@@ -15,7 +15,7 @@
     <meta name="msapplication-navbutton-color" content="#f1384e">
     <link rel="icon" sizes="192x192" href="{{ secure_url('/assets/img/logo192x192.png') }}">
     <link rel="apple-touch-icon" href="{{ secure_url('/assets/img/logo192x192.png') }}">
-    <link rel="shortcut icon" type="image/png href=" {{ secure_url('/assets/img/logo144x144.png') }}"">
+    <link rel="shortcut icon" type="image/png href="{{ secure_url('/assets/img/logo144x144.png') }}">
     <link rel="manifest" href="{{ secure_url('/assets/manifest/manifest.json') }}">
 
     <!--[ICON]-->
@@ -101,7 +101,7 @@
                 <div class="col-md-6">
                     <span>
                         <i class="fas fa-code"></i>  Desenvolvido com  <i class="far fa-heart"></i>  por  
-                        <a href="https://github.com/m4theus-dev/" target="_blank">M4theus.dev</a>
+                        <a href="https://github.com/m4theus-dev/CoroVid" target="_blank">M4theus.dev</a>
                     </span>
                 </div>
             </div>
