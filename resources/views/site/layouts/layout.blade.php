@@ -54,7 +54,7 @@
    <link rel="stylesheet" href="{{ url('assets/css/animate.min.css') }}">
 
    <!--[LINK:Styles]-->
-   <link href="{{ url(mix('assets/css/style.css')) }}" rel="stylesheet">
+   <link href="{{ secure_url('assets/css/style.css') }}" rel="stylesheet">
 
 
 

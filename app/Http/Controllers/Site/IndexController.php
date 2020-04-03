@@ -41,7 +41,8 @@ class IndexController extends Controller
         return view('site.index', [
             "dados" => $dadosMunicipio,
             "dadosBrazil" => $dadosBrazil,
-            "pagina" => 'index'
+            "pagina" => 'index',
+            "url" => 'teste'
         ]);
     }
 
