@@ -1,0 +1,50 @@
+{
+    "name": "HypeManager",
+    "short_name": "HypeManager",
+    "description": "Um simples gerenciador pessoal...",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#efefef",
+    "theme_color": "#f51313",
+    "lang": "pt-BR",
+    "icons": [{
+            "src": "/assets/img/logo512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/assets/img/logo192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/assets/img/logo168x168.png",
+            "type": "image/png",
+            "sizes": "168x168"
+        },
+        {
+            "src": "/assets/img/logo144x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/assets/img/logo96x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/assets/img/logo72x72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/assets/img/logo48x48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        }
+    ],
+    "author": {
+        "name": "Matheus 'zlDeath' Henrique"
+    }
+}

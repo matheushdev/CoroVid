@@ -6,7 +6,7 @@
 <!--[CONTEUDO:Inicio]-->
 <div class="container">
     <div class="conteudo">
-        Salve caraio
+        Contato 😀😀
     </div>
 </div>
 <!--[CONTEUDO:Fim]-->
