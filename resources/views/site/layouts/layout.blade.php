@@ -13,21 +13,21 @@
    <meta name="theme-color" content="#f51313">
    <meta name="apple-mobile-web-app-status-bar-style" content="#f51313">
    <meta name="msapplication-navbutton-color" content="#f51313">
-   <link rel="icon" sizes="192x192" href="{{ asset('/assets/img/logoHM192x192.png') }}">
-   <link rel="apple-touch-icon" href="{{ asset('/assets/img/logoHM192x192.png') }}">
-   <link rel="shortcut icon" type="image/png href=" {{ asset('/assets/img/logoHM144x144.png') }}"">
-   <link rel="manifest" href="{{ asset('/assets/manifest/manifest.json') }}">
+   <link rel="icon" sizes="192x192" href="{{ secure_url('/assets/img/logoHM192x192.png') }}">
+   <link rel="apple-touch-icon" href="{{ secure_url('/assets/img/logoHM192x192.png') }}">
+   <link rel="shortcut icon" type="image/png href=" {{ secure_url('/assets/img/logoHM144x144.png') }}"">
+   <link rel="manifest" href="{{ secure_url('/assets/manifest/manifest.json') }}">
 
    <!--[ICON]-->
-   <link rel="icon" href="{{ asset('/assets/img/icon.png') }}">
+   <link rel="icon" href="{{ secure_url('/assets/img/icon.png') }}">
 
    <!--[META:OG]-->
    <meta property="og:locale" content="pt-BR">
-   <meta property="og:url" content="{{ url('') }}'">
+   <meta property="og:url" content="{{ secure_url('') }}'">
    <meta property="og:title" content="Restaurante">
    <meta property="og:site_name" content="Restaurante">
    <meta property="og:description" content="Vendas no restaurante">
-   <meta property="og:image" content="{{ asset('/assets/img/icon.png') }}">
+   <meta property="og:image" content="{{ secure_url('/assets/img/icon.png') }}">
    <meta property="og:image:type" content="image/png">
    <meta property="og:image:width" content="144">
    <meta property="og:image:height" content="144">
@@ -35,7 +35,7 @@
    <!--[META:TWITTER]-->
    <meta name="twitter:title" content="Restaurante">
    <meta name="twitter:description" content="Vendas no restaurante">
-   <meta name="twitter:image" content="{{ asset('/assets/img/icon.png') }}">
+   <meta name="twitter:image" content="{{ secure_url('/assets/img/icon.png') }}">
 
    <!--[META:AUTHOR]-->
    <meta property="article:author" content="M4theus.dev" href="https://M4theus.dev">
@@ -48,13 +48,13 @@
    <meta name="copyright" content="Restaurante, Inc. ©">
 
    <!--[LINK:Outros]-->
-   <link rel="stylesheet" href="{{ url('assets/css/sweetalert2-dark.css') }}">
-   <link rel="stylesheet" href="{{ url('assets/css/bootstrap/bootstrap.css') }}">
+   <link rel="stylesheet" href="{{ secure_url('assets/css/sweetalert2-dark.css') }}">
+   <link rel="stylesheet" href="{{ secure_url('assets/css/bootstrap/bootstrap.css') }}">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-   <link rel="stylesheet" href="{{ url('assets/css/animate.min.css') }}">
+   <link rel="stylesheet" href="{{ secure_url('assets/css/animate.min.css') }}">
 
    <!--[LINK:Styles]-->
-   <link href="{{ secure_url('assets/css/style.css') }}" rel="stylesheet">
+   <link href="{{ secure_url(mix('assets/css/style.css')) }}" rel="stylesheet">
 
 
 
@@ -109,13 +109,13 @@
 
 
    <!--[SCRIPTS:Outros]-->
-   <script src="{{ url('assets/js/jquery.js') }}"></script>
-   <script src="{{ url('assets/js/sweetalert2.min.js') }}"></script>
-   <script src="{{ url('assets/js/bootstrap/bootstrap.js') }}"></script>
-   <script src="{{ url('assets/js/wow.js') }}" type="text/javascript" ></script>
+   <script src="{{ secure_url('assets/js/jquery.js') }}"></script>
+   <script src="{{ secure_url('assets/js/sweetalert2.min.js') }}"></script>
+   <script src="{{ secure_url('assets/js/bootstrap/bootstrap.js') }}"></script>
+   <script src="{{ secure_url('assets/js/wow.js') }}" type="text/javascript" ></script>
    <script>new WOW().init();</script>
    <!--[SCRIPTS:Site]-->
-   <script src="{{ url(mix('assets/js/main.js')) }}"></script>
+   <script src="{{ secure_url(mix('assets/js/main.js')) }}"></script>
 </body>
 
 </html>
