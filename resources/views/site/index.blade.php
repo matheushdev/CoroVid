@@ -140,8 +140,7 @@
                         </div>
                         <div class="footer">
                             <div class="row inf2">
-                                <div class="col">Atualizado em <e>{{ $dados["cidade"]["abadia_dos_dourados"]["data"] }}
-                                    </e>. </div>
+                                <div class="col">Atualizado em <e>{{ $dados["cidade"]["abadia_dos_dourados"]["data"] }}</e>. </div>
                                 <div class="col-auto">Fonte: <a
                                         href="{{ $dados["cidade"]["abadia_dos_dourados"]["fonte_link"] }}"
                                         target="_blank">{{ $dados["cidade"]["abadia_dos_dourados"]["fonte_nome"] }}</a>.
@@ -232,6 +231,15 @@
                             <div class="row inf2">
                                 <div class="col">Óbitos:</div>
                                 <div class="col-auto count">{{ $dadosBrazil["deaths"] }}</div>
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <div class="row inf2">
+                                <div class="col">Atualizado em <e> {{ $data }}</e>.
+                                </div>
+                                <div class="col-auto">Fonte:
+                                    <a href="https://app.covidzero.com.br/" target="_blank">CovidZero</a>.
+                                </div>
                             </div>
                         </div>
                     </div>

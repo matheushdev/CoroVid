@@ -38,11 +38,12 @@ class IndexController extends Controller
     {
         $dadosMunicipio = $this->getDadosMunicipio();
         $dadosBrazil = $this->getDadosBrazil();
+        $data = date('d/m/Y H:m');
         return view('site.index', [
             "dados" => $dadosMunicipio,
             "dadosBrazil" => $dadosBrazil,
             "pagina" => 'index',
-            "url" => 'teste'
+            "data" => $data
         ]);
     }
 
