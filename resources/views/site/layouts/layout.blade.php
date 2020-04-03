@@ -13,21 +13,21 @@
     <meta name="theme-color" content="#f1384e">
     <meta name="apple-mobile-web-app-status-bar-style" content="#f1384e">
     <meta name="msapplication-navbutton-color" content="#f1384e">
-    <link rel="icon" sizes="192x192" href="{{ url('/assets/img/logo192x192.png') }}">
-    <link rel="apple-touch-icon" href="{{ url('/assets/img/logo192x192.png') }}">
-    <link rel="shortcut icon" type="image/png href=" {{ url('/assets/img/logo144x144.png') }}"">
-    <link rel="manifest" href="{{ url('/assets/manifest/manifest.json') }}">
+    <link rel="icon" sizes="192x192" href="{{ secure_url('/assets/img/logo192x192.png') }}">
+    <link rel="apple-touch-icon" href="{{ secure_url('/assets/img/logo192x192.png') }}">
+    <link rel="shortcut icon" type="image/png href=" {{ secure_url('/assets/img/logo144x144.png') }}"">
+    <link rel="manifest" href="{{ secure_url('/assets/manifest/manifest.json') }}">
 
     <!--[ICON]-->
-    <link rel="icon" href="{{ url('/assets/img/icon.png') }}">
+    <link rel="icon" href="{{ secure_url('/assets/img/icon.png') }}">
 
     <!--[META:OG]-->
     <meta property="og:locale" content="pt-BR">
-    <meta property="og:url" content="{{ url('') }}'">
+    <meta property="og:url" content="{{ secure_url('') }}'">
     <meta property="og:title" content="CoroVid">
     <meta property="og:site_name" content="CoroVid">
     <meta property="og:description" content="Visualize os casos de corona vírus da região!">
-    <meta property="og:image" content="{{ url('/assets/img/icon.png') }}">
+    <meta property="og:image" content="{{ secure_url('/assets/img/icon.png') }}">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="144">
     <meta property="og:image:height" content="144">
@@ -35,7 +35,7 @@
     <!--[META:TWITTER]-->
     <meta name="twitter:title" content="CoroVid">
     <meta name="twitter:description" content="Visualize os casos de corona vírus da região!">
-    <meta name="twitter:image" content="{{ url('/assets/img/icon.png') }}">
+    <meta name="twitter:image" content="{{ secure_url('/assets/img/icon.png') }}">
 
     <!--[META:AUTHOR]-->
     <meta property="article:author" content="M4theus.dev" href="https://M4theus.dev">
@@ -48,13 +48,13 @@
     <meta name="copyright" content="© CoroVid">
 
     <!--[LINK:Outros]-->
-    <link rel="stylesheet" href="{{ url('assets/css/sweetalert2-dark.css') }}">
-    <link rel="stylesheet" href="{{ url('assets/css/bootstrap/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ secure_url('assets/css/sweetalert2-dark.css') }}">
+    <link rel="stylesheet" href="{{ secure_url('assets/css/bootstrap/bootstrap.css') }}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-    <link rel="stylesheet" href="{{ url('assets/css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_url('assets/css/animate.min.css') }}">
 
     <!--[LINK:Styles]-->
-    <link href="{{ url(mix('assets/css/style.css')) }}" rel="stylesheet">
+    <link href="{{ secure_url(mix('assets/css/style.css')) }}" rel="stylesheet">
 
 
 
@@ -70,7 +70,7 @@
             <nav class="navbar menu navbar-expand-lg fp ">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                     data-target="#navbarNav"> ☰ </button>
-                <img src="{{ url('assets/img/CoroVid.png') }}" class="img-fluid" width="80" alt="CoroVid - Imagem">
+                <img src="{{ secure_url('assets/img/CoroVid.png') }}" class="img-fluid" width="80" alt="CoroVid - Imagem">
                 <div class="container">
                     <div class="collapse navbar-collapse wow fadeIn" id="navbarNav">
                         <ul class="navbar-nav">
@@ -113,7 +113,7 @@
     <!--[SCRIPTS:Outros]-->
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register("{{ url('/assets/manifest/sw.js') }}")
+            navigator.serviceWorker.register("{{ secure_url('/assets/manifest/sw.js') }}")
         .then(function () {
             console.log('service worker registrado');
         })
@@ -122,15 +122,15 @@
         });
     }
     </script>
-    <script src="{{ url('assets/js/jquery.js') }}"></script>
-    <script src="{{ url('assets/js/sweetalert2.min.js') }}"></script>
-    <script src="{{ url('assets/js/bootstrap/bootstrap.js') }}"></script>
-    <script src="{{ url('assets/js/wow.js') }}" type="text/javascript"></script>
+    <script src="{{ secure_url('assets/js/jquery.js') }}"></script>
+    <script src="{{ secure_url('assets/js/sweetalert2.min.js') }}"></script>
+    <script src="{{ secure_url('assets/js/bootstrap/bootstrap.js') }}"></script>
+    <script src="{{ secure_url('assets/js/wow.js') }}" type="text/javascript"></script>
     <script>
         new WOW().init();
     </script>
     <!--[SCRIPTS:Site]-->
-    <script src="{{ url(mix('assets/js/main.js')) }}"></script>
+    <script src="{{ secure_url(mix('assets/js/main.js')) }}"></script>
 </body>
 
 </html>
