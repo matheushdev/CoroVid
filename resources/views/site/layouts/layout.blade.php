@@ -63,7 +63,7 @@
 
 
 
-    <title>CoroVid -- {{ $pagina ?? 'Teste' }}</title>
+    <title>CoroVid - {{ $pagina ?? 'Teste' }}</title>
 </head>
 
 <body>
