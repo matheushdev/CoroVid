@@ -55,6 +55,7 @@
     <link rel="stylesheet" href="{{ url('assets/css/font-awesome-animation.min.css') }}">
     <link rel="stylesheet" href="{{ url('assets/css/animate.min.css') }}">
     <script src="{{ url('assets/js/sweetalert2.min.js') }}"></script>
+    <script data-ad-client="ca-pub-2626050611360548" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     <!--[LINK:Styles]-->
     <link href="{{ url('assets/css/style.css') }}" rel="stylesheet">
