@@ -12,29 +12,31 @@ const mix = require('laravel-mix');
  */
 
 mix
-    //TODO: Styles do site
+//TODO: Styles do site
     .styles([
-        'resources/assets/css/style.css',
-        'resources/assets/css/style2.css'
-    ], 'public/assets/css/style.css')
+    'resources/assets/css/style.css',
+    'resources/assets/css/style2.css'
+], 'public/assets/css/style.css')
 
 
-    //TODO: Scripts do site
-    .scripts([
-        'resources/assets/js/main.js',
-    ], 'public/assets/js/main.js')
+//TODO: Scripts do site
+.scripts([
+    'resources/assets/js/main.js',
+], 'public/assets/js/main.js')
+
+.scripts('resources/assets/manifest/manifest.json', 'public/manifest.json')
+    .scripts('resources/assets/manifest/sw.js', 'public/sw.js')
+
+//TODO: "Dependencias" do site
+//Styles
+.styles('resources/assets/css/bootstrap/bootstrap.css', 'public/assets/css/bootstrap/bootstrap.css')
 
 
-    //TODO: "Dependencias" do site
-        //Styles
-    .styles('resources/assets/css/bootstrap/bootstrap.css', 'public/assets/css/bootstrap/bootstrap.css')
-
-
-        //Scripts
-    .scripts('resources/assets/js/jquery.min.js', 'public/assets/js/jquery.js')
+//Scripts
+.scripts('resources/assets/js/jquery.min.js', 'public/assets/js/jquery.js')
     .scripts('resources/assets/js/bootstrap/bootstrap.js', 'public/assets/js/bootstrap/bootstrap.js')
-    
-    
-    
-    //define version
-    .version();
+
+
+
+//define version
+.version();

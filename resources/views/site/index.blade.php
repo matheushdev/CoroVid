@@ -232,6 +232,7 @@
                                 <div class="col">Óbitos:</div>
                                 <div class="col-auto count">{{ $dadosBrazil["deaths"] }}</div>
                             </div>
+                            <hr class="hr2">
                         </div>
                         <div class="footer">
                             <div class="row inf2">

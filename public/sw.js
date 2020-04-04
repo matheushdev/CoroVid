@@ -1,6 +1,13 @@
-//Instala Cache
+var data = new Date();
+var dia = data.getDate();
+var mes = data.getMonth();
+var ano = data.getFullYear();
+var hora = data.getHours();
+var min = data.getMinutes();
+var str_data_e_hora = ano + '_0' + (mes + 1) + '_0' + dia + '_0' + hora + '_' + min;
 
-var staticCacheName = 'gerenciador_pessoal_2020_03_12_16_55_15'
+
+var staticCacheName = 'corovid_' + str_data_e_hora;
 
 this.addEventListener("install", event => {
     this.skipWaiting();
@@ -10,9 +17,16 @@ this.addEventListener("install", event => {
         .then(cache => {
             return cache.addAll([
                 '/',
-                '/assets/manifest/manifest.json',
+                '/offline',
+                '/contato',
+                '/manifest.json',
+                '/assets/css/style.css',
+                '/assets/js/jquery.js',
+                '/assets/css/bootstrap/bootstrap.css',
+                '/assets/js/bootstrap/bootstrap.js',
                 '/assets/img/icon.png',
                 '/assets/img/logo.png',
+                '/assets/img/CoroVid.png',
                 '/assets/img/logo48x48.png',
                 '/assets/img/logo72x72.png',
                 '/assets/img/logo96x96.png',
@@ -31,7 +45,7 @@ this.addEventListener("activate", event => {
         caches.keys().then(cacheNames => {
             return Promise.all(
                 cacheNames
-                .filter(cacheName => (cacheName.startsWith('gerenciador_pessoal_')))
+                .filter(cacheName => (cacheName.startsWith('corovid_')))
                 .filter(cacheName => (cacheName !== staticCacheName))
                 .map(cacheName => caches.delete(cacheName))
             );
@@ -48,7 +62,7 @@ this.addEventListener("fetch", event => {
             return response || fetch(event.request);
         })
         .catch(() => {
-            return caches.match('offline.php');
+            return caches.match('/offline');
         })
     )
 })

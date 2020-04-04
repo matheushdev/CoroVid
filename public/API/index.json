@@ -2,17 +2,17 @@
     "cidade": {
         "coromandel": {
             "nome_cidade": "Coromandel",
-            "casos_suspeitos": "46",
+            "casos_suspeitos": "54",
             "casos_confirmados": "0",
             "casos_descartados": "0",
             "obitos": "0",
             "obitos_suspeitos": "0",
-            "pacientes_isolamento_domiciliar": "0",
-            "exames_coletados": "06",
+            "pacientes_isolamento_domiciliar": "44",
+            "exames_coletados": "6",
             "pacientes_internados": "0",
-            "sairam_do_isolamento_domiciliar": "0",
+            "sairam_do_isolamento_domiciliar": "4",
             "pacientes_internados_em_uberlandia": "2",
-            "data": "01/04/2020 21:41",
+            "data": "02/04/2020 15:00",
             "fonte_nome": "GeraisFM",
             "fonte_link": "https://www.facebook.com/radiogeraisfm/photos/a.1411157272498765/2423000327981116/?type=3&theater"
         },
@@ -28,13 +28,13 @@
             "pacientes_internados": "0",
             "sairam_do_isolamento_domiciliar": "0",
             "pacientes_internados_em_uberlandia": "0",
-            "data": "01/04/2020 21:41",
-            "fonte_nome": "GeraisFM",
-            "fonte_link": "https://www.facebook.com/radiogeraisfm/photos/a.1411157272498765/2423058041308678/?type=1&theater"
+            "data": "03/04/2020 19:05",
+            "fonte_nome": "Gerais FM",
+            "fonte_link": "https://www.facebook.com/radiogeraisfm/photos/a.1414989148782244/2425626541051828/?type=3&theater"
         },
         "monte_carmelo": {
             "nome_cidade": "Monte Carmelo",
-            "casos_suspeitos": "71",
+            "casos_suspeitos": "65",
             "casos_confirmados": "0",
             "casos_descartados": "2",
             "obitos": "0",
@@ -44,9 +44,9 @@
             "pacientes_internados": "3",
             "sairam_do_isolamento_domiciliar": "0",
             "pacientes_internados_em_uberlandia": "0",
-            "data": "01/04/2020 21:41",
-            "fonte_nome": "Monte FM",
-            "fonte_link": "https://www.montefm.com.br/noticias/confira-o-novo-boletim-epidemiologico-sobre-o-coronavirus-em-monte-carmelo-4/?fbclid=IwAR3tECXzkv7qeDW72BenJD8gHtgWXds7UibQwRCOH3lMCoyd7hmtPXqBP6c"
+            "data": "03/04/2020 19:05",
+            "fonte_nome": "Gerais FM",
+            "fonte_link": "https://www.facebook.com/radiogeraisfm/photos/a.1414989148782244/2425628834384932/?type=3&theater"
         }
     }
 
