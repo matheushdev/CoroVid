@@ -130,10 +130,10 @@
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js')
                 .then(function () {
-                    console.log('service worker registrado');
+                    console.log('\n[+] ServiceWorker Registrado!\n');
                 })
                 .catch(function () {
-                    console.warn('service worker falhou');
+                    console.warn('\n[!] ServiceWorker Falhou!\n');
                 });
         }
     </script>

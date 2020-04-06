@@ -18,7 +18,6 @@ this.addEventListener("install", event => {
             return cache.addAll([
                 '/',
                 '/offline',
-                '/contato',
                 '/manifest.json',
                 '/assets/css/style.css',
                 '/assets/js/jquery.js',
