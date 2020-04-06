@@ -21,3 +21,5 @@ Route::get('offline', 'Site\IndexController@offline')->name('site.offline');
 
 Route::post('contato', 'Site\IndexController@enviaEmail')->name('site.contato.enviaemail');
 
+
+URL::forceScheme('https');
