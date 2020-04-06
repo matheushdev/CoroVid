@@ -74,7 +74,7 @@
 
 
 
-    <title>CoroVid - {{ $pagina ?? 'Teste' }}</title>
+    <title>CoroVid - {{ $pagina ?? 'Inicio' }}</title>
 </head>
 
 <body>
@@ -128,7 +128,7 @@
     <!--[SCRIPTS:Outros]-->
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register("{{ url(mix('/sw.js')) }}")
+            navigator.serviceWorker.register("{{ url('/sw.js') }}")
                 .then(function () {
                     console.log('service worker registrado');
                 })
