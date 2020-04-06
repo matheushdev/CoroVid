@@ -149,7 +149,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 text-tuncate wow fadeInUpBig">
+                <div class="col-md-6 text-tuncate wow fadeInUp">
                     <div class="card">
                         <div class="titulo">{{ $dados["cidade"]["monte_carmelo"]["nome_cidade"] }}</div>
                         <div class="infos">
@@ -219,7 +219,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 text-tuncate wow fadeInUpBig">
+                <div class="col-md-6 text-tuncate wow fadeInUp">
                     <div class="card">
                         <div class="titulo">Brasil</div>
                         <div class="infos">

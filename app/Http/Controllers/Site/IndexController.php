@@ -68,7 +68,7 @@ class IndexController extends Controller
         $assunto = $request->assunto;
         $mensagem = $request->mensagem;
 
-        Mail::to('corovid.contato@gmail.com')->send(new Contato($nome, $email, $assunto, $mensagem));
+        Mail::to('matheushenrique_cunha@hotmail.com')->send(new Contato($nome, $email, $assunto, $mensagem));
         $request->session()->flash('alert-success', 'Sua mensagem foi enviada, obrigado!');
         return redirect()->back();
     }
