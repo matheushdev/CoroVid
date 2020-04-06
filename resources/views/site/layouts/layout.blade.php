@@ -128,7 +128,7 @@
     <!--[SCRIPTS:Outros]-->
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register("{{ url('/sw.js') }}")
+            navigator.serviceWorker.register('/sw.js')
                 .then(function () {
                     console.log('service worker registrado');
                 })
