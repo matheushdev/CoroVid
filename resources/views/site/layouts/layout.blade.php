@@ -8,6 +8,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!--[GOOGLE:Tag]-->
+    <script data-ad-client="ca-pub-7375550308523085" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162908989-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-162908989-1');
+    </script>
+    
+
     <!--[PWA]-->
     <meta name="application-name" content="CoroVid">
     <meta name="theme-color" content="#d80404">
@@ -23,7 +35,7 @@
 
     <!--[META:OG]-->
     <meta property="og:locale" content="pt-BR">
-    <meta property="og:url" content="{{ url('') }}'">
+    <meta property="og:url" content="{{ url('') }}">
     <meta property="og:title" content="CoroVid">
     <meta property="og:site_name" content="CoroVid">
     <meta property="og:description" content="Visualize os casos de corona vírus da região!">
@@ -55,7 +67,6 @@
     <link rel="stylesheet" href="{{ url('assets/css/font-awesome-animation.min.css') }}">
     <link rel="stylesheet" href="{{ url('assets/css/animate.min.css') }}">
     <script src="{{ url('assets/js/sweetalert2.min.js') }}"></script>
-    <script data-ad-client="ca-pub-2626050611360548" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     <!--[LINK:Styles]-->
     <link href="{{ url('assets/css/style.css') }}" rel="stylesheet">
@@ -100,7 +111,7 @@
     <section class="footer container">
         <footer>
             <div class="row  wow fadeIn">
-                <div class="col-md-6"> © CoroVid - Projeto para visualizar total de casos da COVID-16 no município.
+                <div class="col-md-6"> © CoroVid - Projeto para visualizar total de casos da COVID-19 no município.
                 </div>
                 <div class="col-md-6">
                     <span>
