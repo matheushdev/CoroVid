@@ -25,7 +25,7 @@ mix
 ], 'public/assets/js/main.js')
 
 .scripts('resources/assets/manifest/manifest.json', 'public/manifest.json')
-    .scripts('resources/assets/manifest/sw.js', 'public/sw.js')
+    .scripts('resources/assets/manifest/sw2.js', 'public/sw2.js')
 
 //TODO: "Dependencias" do site
 //Styles

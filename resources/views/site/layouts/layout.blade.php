@@ -128,7 +128,7 @@
     <!--[SCRIPTS:Outros]-->
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js')
+            navigator.serviceWorker.register('/sw2.js')
                 .then(function () {
                     console.log('\n[+] ServiceWorker Registrado!\n');
                 })
