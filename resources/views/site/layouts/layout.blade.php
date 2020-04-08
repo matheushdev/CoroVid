@@ -102,8 +102,8 @@
                             </li>
                         </ul>
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item {{ ($pagina == 'Contato')? 'active' :  '' }}">
-                                <a class="nav-link" href="{{ route('site.contato') }}">
+                            <li class="nav-item {{ ($pagina == 'Informações')? 'active' :  '' }}">
+                                <a class="nav-link" href="{{ route('site.informacoes') }}">
                                     <i class="fas fa-info-circle"></i>   Informações
                                 </a>
                             </li>
@@ -183,17 +183,17 @@
 
 
     <!--[SCRIPTS:Outros]-->
-    {{--  <script>
+     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw2.js')
                 .then(function () {
-                    console.log('\n[+] ServiceWorker Registrado!\n');
+                    console.log('\n[+] ServiceWorker Registrado!\n\n');
                 })
                 .catch(function () {
-                    console.warn('\n[!] ServiceWorker Falhou!\n');
+                    console.warn('\n[!] ServiceWorker Falhou!\n\n');
                 });
         }
-    </script>  --}}
+    </script> 
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/bootstrap/bootstrap.js"></script>
     <script src="/assets/js/wow.js" type="text/javascript"></script>

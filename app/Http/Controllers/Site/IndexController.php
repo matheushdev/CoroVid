@@ -82,4 +82,13 @@ class IndexController extends Controller
             "pagina" => 'Offline'
         ]);
     }
+
+
+    
+    public function informacoes()
+    {
+        return view('site.informacoes', [
+            "pagina" => 'Informações'
+        ]);
+    }
 }
