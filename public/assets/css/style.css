@@ -107,42 +107,52 @@ nav.menu {
 
 
 /* !- FOOTER - INICIO -! */
-
 footer {
     width: 100%;
-    margin-bottom: 2px;
-    background: #1f1f23;
     border-top: rgba(0, 0, 0, .30) solid 4px;
+}
+footer .social {
+    background: #1f1f23;
+    padding: 10px 15px;
+}
+footer .social p { 
+    margin: 0; 
+    text-align: right;
+}
+footer .social i {
+    color: white;
+    margin-right: 5px;
+}
+footer .copyright {
+    background: #131315;
     padding: 15px;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
 }
-
-footer span {
+footer .copyright span {
     float: right;
     font-size: 13px;
 }
-
-footer a {
+footer .copyright a {
     color: #d80820;
     text-decoration: underline;
     transition: all 0.3s ease-in;
 }
 
-footer a:hover {
+footer .copyright a:hover {
     color: #f1384e;
     text-decoration: underline;
     transition: all 0.2s ease-in;
 }
 
-footer i.fas.fa-code {
+footer .copyright i.fas.fa-code {
     color: #fff;
     font-size: 11px;
     margin-left: 1px;
     margin-right: 1px;
 }
 
-footer i.far.fa-heart {
+footer .copyright i.far.fa-heart {
     color: #d80404;
     font-size: 11px;
     font-weight: 500;
@@ -162,7 +172,6 @@ footer i.far.fa-heart {
         color: #ff2f2f;
     }
 }
-
 
 /* !- FOOTER - FIM -! */
 
@@ -340,12 +349,40 @@ textarea {
     transition: all 0.2s ease-in;
 }
 
-.contato-form .alerta {
-    border: coral 1px solid;
+
+/* !- CONTATO - FIM -! */
+
+
+
+/* !- PUBLICIDADE - INICIO -! */
+
+.publi {
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+.publi .card {
+    border: #1f1f23 3px solid;
+    background-color: transparent;
+    border-radius: 0;
+    margin-bottom: 5px;
+    max-width: 410px;
+    max-height: 70px;
+    opacity: 0.9;
+}
+.publi .card img {
+    max-width: 390px;
+    max-height: 40px;
+    opacity: 0.1;
+    transition: all 0.4s ease-in;
+}
+.publi .card img:hover {
+    opacity: 0.8;
+    transition: all 0.6s ease-in;
 }
 
 
-/* !- CONTATO - FIM -! */
+/* !- PUBLICIDADE - FIM -! */
 /* !- FONTES - INICIO -! */
 
 @font-face {

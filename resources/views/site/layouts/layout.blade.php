@@ -9,16 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--[GOOGLE:Tag]-->
-    <script data-ad-client="ca-pub-7375550308523085" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script data-ad-client="ca-pub-7375550308523085" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162908989-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
     
       gtag('config', 'UA-162908989-1');
     </script>
-    
+
 
     <!--[PWA]-->
     <meta name="application-name" content="CoroVid">
@@ -100,6 +101,13 @@
                                 </a>
                             </li>
                         </ul>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item {{ ($pagina == 'Contato')? 'active' :  '' }}">
+                                <a class="nav-link" href="{{ route('site.contato') }}">
+                                    <i class="fas fa-info-circle"></i>   Informações
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -110,23 +118,72 @@
     <!--[FOOTER:Inicio]-->
     <section class="footer container">
         <footer>
-            <div class="row  wow fadeIn">
-                <div class="col-md-6"> © CoroVid - Projeto para visualizar total de casos da COVID-19 no município.
-                </div>
-                <div class="col-md-6">
-                    <span>
-                        <i class="fas fa-code"></i>  Desenvolvido com  <i class="far fa-heart"></i>  por  
-                        <a href="https://github.com/m4theus-dev/CoroVid" target="_blank">M4theus.dev</a>
-                    </span>
+            <div class="social">
+                <p>
+                    <a href="https://github.com/m4theus-dev/CoroVid" target="_blank" data-toggle="tooltip" data-placement="top" title="Visualizar projeto.">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://wa.me/553492329818?text=Quero entrar em contato" target="_blank" data-toggle="tooltip" data-placement="top" title="Entrar em contato pelo Whatsapp.">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/m4theus.dev/" target="_blank" data-toggle="tooltip" data-placement="top" title="Meu Instagram.">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/m4theus_dev" target="_blank"data-toggle="tooltip" data-placement="top" title="Meu Twitter.">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/m4theus.dev/" target="_blank" data-toggle="tooltip" data-placement="top" title="Meu Facebook.">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </p>
+            </div>
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6"> © CoroVid - Projeto para visualizar total de casos da COVID-19 no município.
+                    </div>
+                    <div class="col-md-6">
+                        <span>
+                            <i class="fas fa-code"></i>  Desenvolvido com  <i class="far fa-heart"></i>  por  
+                            <a href="https://github.com/m4theus-dev/CoroVid" target="_blank">M4theus.dev</a>
+                        </span>
+                    </div>
                 </div>
             </div>
         </footer>
     </section>
     <!--[FOOTER:Fim]-->
 
+    <!--[Publicidade:Inicio]-->
+    {{--  <div class="container publi wow fadeIn">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="/contato" target="_blank">
+                    <div class="card">
+                        <img src="/assets/img/publi.png" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/contato" target="_blank">
+                    <div class="card">
+                        <img src="/assets/img/publi.png" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/contato" target="_blank">
+                    <div class="card">
+                        <img src="/assets/img/publi.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>  --}}
+    <!--[Publicidade:Fim]-->
+
 
     <!--[SCRIPTS:Outros]-->
-    <script>
+    {{--  <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw2.js')
                 .then(function () {
@@ -136,7 +193,7 @@
                     console.warn('\n[!] ServiceWorker Falhou!\n');
                 });
         }
-    </script>
+    </script>  --}}
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/bootstrap/bootstrap.js"></script>
     <script src="/assets/js/wow.js" type="text/javascript"></script>

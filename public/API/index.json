@@ -2,51 +2,42 @@
     "cidade": {
         "coromandel": {
             "nome_cidade": "Coromandel",
-            "casos_suspeitos": "65",
             "casos_confirmados": "0",
-            "casos_descartados": "0",
+            "casos_suspeitos": "47",
+            "casos_descartados": "3",
             "obitos": "0",
-            "obitos_suspeitos": "0",
-            "pacientes_isolamento_domiciliar": "44",
-            "exames_coletados": "6",
-            "pacientes_internados": "0",
-            "sairam_do_isolamento_domiciliar": "4",
-            "pacientes_internados_em_uberlandia": "2",
-            "data": "02/04/2020 15:00",
+            "isolamento_domiciliar": "0",
+            "exames_coletados": "7",
+            "recuperados": "0",
             "fonte_nome": "GeraisFM",
-            "fonte_link": "https://www.facebook.com/radiogeraisfm/photos/a.1411157272498765/2423000327981116/?type=3&theater"
+            "fonte_link": "https://www.facebook.com/photo?fbid=2428830404064775&set=a.1411157272498765",
+            "data": "07/04/2020 15:00"
         },
         "abadia_dos_dourados": {
             "nome_cidade": "Abadia dos Dourados",
-            "casos_suspeitos": "1",
             "casos_confirmados": "0",
+            "casos_suspeitos": "1",
             "casos_descartados": "0",
             "obitos": "0",
-            "obitos_suspeitos": "0",
-            "pacientes_isolamento_domiciliar": "2",
+            "isolamento_domiciliar": "1",
             "exames_coletados": "0",
-            "pacientes_internados": "0",
-            "sairam_do_isolamento_domiciliar": "0",
-            "pacientes_internados_em_uberlandia": "0",
-            "data": "03/04/2020 19:05",
-            "fonte_nome": "Gerais FM",
-            "fonte_link": "https://www.facebook.com/radiogeraisfm/photos/a.1414989148782244/2425626541051828/?type=3&theater"
+            "recuperados": "0",
+            "fonte_nome": "Null",
+            "fonte_link": "Null",
+            "data": "07/04/2020 18:21"
         },
         "monte_carmelo": {
             "nome_cidade": "Monte Carmelo",
-            "casos_suspeitos": "65",
             "casos_confirmados": "0",
-            "casos_descartados": "2",
+            "casos_suspeitos": "29",
+            "casos_descartados": "4",
             "obitos": "0",
-            "obitos_suspeitos": "1",
-            "pacientes_isolamento_domiciliar": "0",
+            "isolamento_domiciliar": "0",
             "exames_coletados": "5",
-            "pacientes_internados": "3",
-            "sairam_do_isolamento_domiciliar": "0",
-            "pacientes_internados_em_uberlandia": "0",
-            "data": "03/04/2020 19:05",
-            "fonte_nome": "Gerais FM",
-            "fonte_link": "https://www.facebook.com/radiogeraisfm/photos/a.1414989148782244/2425628834384932/?type=3&theater"
+            "recuperados": "0",
+            "fonte_nome": "MonteFM",
+            "fonte_link": "https://www.montefm.com.br/noticias/secretaria-municipal-de-saude-divulga-novo-boletim-sobre-os-casos-de-coronavirus-em-monte-carmelo/",
+            "data": "06/04/2020 19:00"
         }
     }
 
